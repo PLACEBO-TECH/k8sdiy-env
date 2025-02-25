@@ -27,7 +27,8 @@ jobs:
       - name: terraform plan
         uses: dflook/terraform-plan@v1
         with:
-          fail-on-diff: true
+          path: bootstrap
+          add_github_comment: false
 
   security-check:
     name: Security Check
