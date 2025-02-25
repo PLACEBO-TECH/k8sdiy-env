@@ -78,7 +78,7 @@ resource "helm_release" "kbot_app" {
 }
 # Iterator for testing version v1.0.0 
 resource "null_resource" "test" {
-  count = 10
+  count = 1
   triggers = {
     test = count.index
   }
