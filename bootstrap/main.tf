@@ -76,3 +76,4 @@ resource "helm_release" "kbot_app" {
     }
   
 }
+## Iterator for testing version v1.0.0
